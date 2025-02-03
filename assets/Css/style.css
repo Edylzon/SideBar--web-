@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.toggle{
+    height: 50px;
+    width:50px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    right: 10px;
+    background-color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.sidebar{ 
+    display: flex;
+    width: 60px;
+    height: 100vh;
+    background-color: white; 
+    overflow: hidden;
+    transition: 0.5s;
+}
+.Dsactiv0e{
+ display: flex;
+}
+.displayNone{
+    display: none;
+}
+.sidebar.active{
+    width: 200px;
+}
+h1{
+    margin-left: 25%;
+    font-size: 3rem;
+}
+.logoImg{ 
+    padding-top: 5rem;
+    padding-left: 20%;
+    padding-bottom: 5rem;
+}
+a{
+    
+    display: flex;
+    margin-left: 25%;
+    color: black;
+    padding-top: 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.paddinRight{
+    padding-right: 0.7rem;
+}
+/*Click*/
+
+
+.img{
+    width: 30px;
+    border-radius: 100%;    
+    padding-right: 0.2rem;
+}
+.ordenar{
+    text-align: center;
+}
+.abajo{
+    padding-top: 25vh;
+}
+.red:hover{
+  color: red;
+}
+.yellow:hover{
+   color: rgba(218, 230, 59, 0.589); 
+}
+.green:hover{
+color: green;
+}
+.orange:hover{
+color: orange;
+}
+.brown:hover{
+color: brown;
+}
+.blue:hover{
+color: blue;
+}
+.purple:hover{
+color: purple;
+}
